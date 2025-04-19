@@ -11,16 +11,14 @@ using ClassLibraryBibliotecaEjemplo;
 
 namespace WindowsFormsAppFormEjemplo
 {
-    // Esta es la clase principal del formulario (la ventana que ves)
     public partial class Form1 : Form
     {
-        // Constructor del formulario (se ejecuta al iniciar la ventana)
+        // Constructor del formulario
         public Form1()
         {
             InitializeComponent(); // Inicializa todos los controles (botones, cajas de texto, etc.)
         }
 
-        // Evento que se dispara cuando haces clic en el botón "Mostrar"
         private void btnMostrar_Click(object sender, EventArgs e)
         {
             // Creamos un nuevo producto
